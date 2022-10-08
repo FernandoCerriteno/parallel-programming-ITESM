@@ -1,3 +1,11 @@
+/*      07/10/2022
+        Fernando Cerriteño Magaña - A01702790
+        Para cambiar el numero de threads, cambiar el valor que se encuentra en la 
+        variable NUM_THREADS
+        Para la realizacion de este codigo se uso como referencia el codigo de 
+        Cesar Augusto Garcia Perez - https://github.com/VictorRodriguez/operating-systems-lecture/blob/master/labs/04/pi.c
+*/
+
 #include <stdio.h>      //Libreria para trabajar en c
 #include <pthread.h>    //Libreria para trabajar con threads
 #include <stdlib.h>     //Libreria para usar numeros aleatorios
