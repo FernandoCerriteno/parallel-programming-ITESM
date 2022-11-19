@@ -153,21 +153,19 @@ int main(int argc, char *argv[]) {
   
   printf("\nDear manager \nThis is the heat equation for the factory: \n  y = %d * (%f/(%d)^2) \n",alpha,delta_t,delta_x);
 
-  float average;
-  int cont;
+  float average = 0;
   
-  printf("\n");
+  printf("\nMatriz de temperatura despues de 10 unidades de tiempo\n\n");
   for(int j = 0; j < R; j++){
     for(int k = 0; k < C; k++){
       printf("%d ", u[max_iter_time-1][j][k]);
-      average = average + u[max_iter_time-1][i][j];
-      cont++;
+      average = average + u[max_iter_time-1][j][k];
     }
     printf("\n");
   }
   printf("\n");
-  
-  average = average/cont;
+
+  average = average/(R*C);
   printf("The average temperature in the factory is %f \nThanks\n",average);
   
   return 0;
