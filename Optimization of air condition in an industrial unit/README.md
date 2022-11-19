@@ -1,1 +1,1 @@
-![alt text](https://drive.google.com/file/d/1f90rYSS-qx_aUfbtD-df6BHRasZszGYx/view?usp=share_link)
+La siguiente practica consistió en la creación de una matriz de calor usando threads para obtener valores entre 0 y 60 si es “frio” y entre 60 y 100 si es “caliente”, esto con el fin de encontrar el pronostico dentro de 10 horas tomando en cuenta una ecuación de transferencia de calor.
